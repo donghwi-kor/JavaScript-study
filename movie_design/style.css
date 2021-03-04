@@ -1,0 +1,58 @@
+* {   
+    margin: 0;
+}
+
+.container{
+    background-color: #151515;    
+    height: 100vh;
+}
+
+.movie-list-container{
+    padding: 20px;
+    color:white; 
+}
+
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.movie-list-item{
+    margin-right: 30px;
+}
+
+.movie-list-item:hover .movie-list-item-img{
+    transform: scale(1.2);
+    margin: 0 30px;
+}
+
+
+.movie-list-item-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+}
+
+.movie-list-item-title {
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;  /* 확인 */
+    /* opacity: 0; */
+}
+
+.movie-list-item-desc {
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    left: 50px;  /* 확인 */
+    /* opacity: 0; */
+}
+
+
